@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura HTML</title>
+    <!--Conectando o CSS ao HTML. Permitindo que o navegador interprete e aplique as regras da formatação definidas no CSS aos elementos HTML-->
+    <link rel="stylesheet" href="style.css">
+    <!--conectando o js-->
+    <script defer type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <nav id="primeiroCodigo"> 
+        <ul id="barradenavegacao">
+            <li class="menu"><a href="#titulo">Título</a></li>
+            <li class="menu"><a href="#paragrafo">Parágrafos</a></li>
+            <li class="menu"><a href="#links">Links</a></li>
+            <li class="menu"><a href="#listas numeradas">Listas Numeradas</a></li>
+            <li class="menu"><a href="#listas não numeradas">Listas não numeradas</a></li>
+            <li class="menu"><a href="#tabela">Tabelas</a></li>
+            <li class="menu"><a href="#imagem">Imagem</a></li>
+            <li class="menu"><a href="videos">Videos</a></li>
+            <li class="menu"><a href="#audio">Áudio</a></li>
+            <li class="menu"><a href="CSS">CSS</a></li>
+            <li class="menu"><a href="JSS">javascript</a></li>
+        </ul>
+    </nav>
+    <section id="titulo">
+        <h1>Entendendo os conceitos de HTML</h1>
+        <br>
+        <h1>Títulos</h1>
+        <br>
+        <p>As tags de cabeçalho (h1,h2,h3,h4,h5,h6) são usadas para definir os cabeçalhos ou títulos em uma página HTML. Elas representam uma hierarquia de títulos, onde h1 é o título mais importante e h6 é o menos importante. Aqui está uma visão geral de cada tag:</p>
+        <h1>Texto TAG h1</h1>
+        <h2>Texto TAG h2</h2>
+        <h3>Texto TAG h3</h3>
+        <h4>Texto TAG h4</h4>
+        <h5>Texto TAG h5</h5>
+        <h6>Texto TAG h6   </h6>
+    </section>
+    <hr><!---HR INSERE UMA LINHA-->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    </body>
+    </html>
+    <br>
+    <section id="paragrafo">
+        <h1>Parágrafos</h1>
+        <br>
+        <p>A tag p é usada para definir parágrafos de texto em HTML. Ela é usada para estruturar e separar blocos de texto em parágrafos distintos. Qualquer texto colocado entre as tags p e /p será tratado como um parágrafo separado.</p>
+    </section>
+    <hr>
+    <br>
+   <section id="links">
+        <h1>Links</h1>
+        <br>
+        <p>Os links servem para criar hiperlinks que permitem ao usuário navegar entre páginas da web ou seções específicas de uma página. O comando utilizado para criá-los é a TAG a. Segue um exemplo de link para acessar o site do SENAI:</p>
+        <a href="https://sp.senai.br/unidade/paulinia/">
+            ***Clique aqui e vá para o site!***
+        </a>
+    </section>
+    <hr>
+    <section id="listas numeradas">
+        <h1>Listas Numeradas</h1>
+        <br>
+        <p>As listas numeradas são utilizadas para criar listas ordenadas onde cada item é precedido por um número, indicando sua posição na lista. O comando utilizado para criá-las é a TAG ol.Exemplo de documentos para me inscrever no SENAI:</p>
+        <ol>
+            
+            <li>RG</li>
+            <li>Comprovante de residência</li>
+            <li>Declaração escolar</li>
+            <li>CPF</li>
+            <li>Se menor de idade, vir acompanhado dos pais.
+            </li>
+        </ol>
+    </section>
+    <hr>
+    <br>
+    <section id="listas não numeradas">
+        <h1>Lista não numeradas</h1>
+        <br>
+        <p>As listas não numeradas são utilizadas para criar listas onde os itens são apresentados com marcadores, sem qualquer ordem específica. O comando utilizado para criá-las é a TAG ul.Exemplo: estou fazendo curso no SENAI e alguns amigos meus também:</p>
+        <ul>
+            <li>João</li>
+            <li>Maria</li>
+            <li>Martha</li>
+            <li>Ana</li>
+            <li>Anacléto</li>
+        </ul>
+    </section>
+    <hr>
+    <br>
+    <section id="tabela">
+        <h1>Tabelas</h1>
+        <br>
+        <p>As tabelas são usadas para organizar dados em um formato tabular, com linhas e colunas. O comando utilizado para criá-las é a TAG table.Para criarmos as linhas dentro da tabela o comando é a TAG tr e para criar colunas a TAG td.
+        </p>
+        <table>
+            <tr id="cabecalho"><!--primeira linha-->
+                <!--Criando a 1ª linha-->
+                    <td>
+                        <!--Criando a 1ª coluna-->
+                        Cursos
+                    </td>
+                    <td>
+                        <!--Criando a 2ª coluna-->
+                        Período
+                    </td>
+            </tr>
+            <!--Criando a Segunda Linha-->
+            <tr>
+                <td>Desenvolvimento JS</td><!--1ª COLUNA-->
+                <td>Manhã</td><!--2ªCOLUNA-->
+            </tr>
+            <!--Criando a 3ªLINHA-->
+            <tr>
+                <td>Microsoft AI-900</td><!--1ª COLUNA-->
+                <td>Tarde</td><!--2ªCOLUNA-->
+            </tr>
+             <!--Criando a 4ªLINHA-->
+             <tr>
+                <td>JAVA ORACLE</td><!--1ª COLUNA-->
+                <td>Tarde</td><!--2ªCOLUNA-->
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section id="imagem">
+        <h1>Imagens</h1>
+        <br>
+        <p>As imagens são inseridas em uma página web para exibir gráficos, fotos, ou outros tipos de imagens. O comando utilizado para inseri-las é a TAG img.</p>
+        <img src="SENAI.jpg" alt="Imagem do SENAI Paulínia">
+    </section>
+    <hr>
+    <br>
+    <section id="video">
+        <h1>Videos</h1>
+        <p>Os vídeos são incorporados em páginas web para exibir conteúdo audiovisual. O comando utilizado para inseri-los é a TAG video.</p>
+        <br>
+        <h1>Faça cursos no SENAI</h1>
+        <video src="senai.mp4" controls></video>
+    </section>
+    <hr>
+    <br>
+    <section id="audio">
+        <h1>Audio</h1>
+        <p>Para incorporar os arquivos de áudio 
+            em nossa página web utilizamos a TAG audio:</p>
+        <audio src="smoke.mp3" controls></audio>
+    <section>
+        <h1>CSS</h1>
+        CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a apresentação e o layout de documentos HTML. Ele permite personalizar elementos como fontes, cores, espaçamento, bordas, alinhamento, entre outros. Com CSS, é possível estilizar não apenas o conteúdo HTML, mas também elementos como tabelas, listas, parágrafos e até mesmo linhas e bordas.
+        <br>
+        <br>
+        Para tanto precisamos criar um novo documento na pasta do nosso projeto, que deverá conter a extenção .css. Como este é um arquivo diferente do html precisamos realizar a conexão entre eles assim na tag head precisamos conectar por meio da tag link, como na figura abaixo, sendo o style.css o nome dado seguido da extensão do arquivo.
+        <!--conectando o CSS ao html-->
+        <img src="conexaocss.png">
+    </section>
+    <section>
+        <h1>javascript</h1>
+        <p>
+        JavaScript (JS) é uma linguagem de programação utilizada principalmente para adicionar interatividade e dinamismo a páginas web. Com o JS, é possível criar efeitos visuais, validar formulários, manipular elementos da página, criar animações e até mesmo realizar requisições assíncronas para atualizar conteúdo sem recarregar a página.
+        <br>
+        <br>
+        Para tanto precisamos criar um novo documento na pasta do nosso projeto, que deverá conter a extenção .js. Como este é um arquivo diferente do html precisamos realizar a conexão entre eles assim na tag head precisamos conectar por meio da tag script, como na figura abaixo, sendo o main.js o nome dado seguido da extensão do arquivo.
+        <img src="conexaojs.png">
+        </p>
+        <h1>exemplos de aplicação do js</h1>
+        <br>
+        <h3>calculadora simples</h3>
+
+        <p>primeiro numero</p>
+
+        <input id="entrada1" type="number" placeholder="numero">
+        <p>segundo numero</p>
+
+        <input id="entrada2" type="number" placeholder="numero">
+        <button onclick="somar()">+</button> 
+
+        <button onclick="dividir()">/</button> 
+
+        <button onclick="subtracao()">-</button>
+
+        <button onclick="multiplicacao()">*</button> 
+
+        <p>resultado</p> <input id="resultado" type="number">
+
+        <br>
+        <h1>calculadora de imc</h1>
+        <br>
+        <p>digite seu peso</p>
+        <input id='peso' type="number" placeholder='Peso'>
+
+        <p>digite sua altura</p>
+        <input id='altura' type="number" placeholder="Altura">
+
+        <button onclick="imc()">calcular</button>
+        <p>IMC</p>
+        <input id="imc" type ="number" placeholder="IMC">
+         <p>consideracoes</p>
+         <p id="consideracoes"></p>
+
+
+          
+
+    </section>
+   </body>
+   </html>
